@@ -3,8 +3,8 @@ Utilização de tratamento de imagem para identificar contornos.
 
 ## Conversão para escala de cinza e binarização
 
-Converte a imagem RGB para escala de cinza (img_gray).\n
-Armazena o valor máximo de intensidade de pixel na imagem em escala de cinza.
+Converte a imagem RGB para escala de cinza (img_gray).<br>
+Armazena o valor máximo de intensidade de pixel na imagem em escala de cinza.<br>
 cv2.threshold: aplica uma limiarização à imagem. Aqui, THRESH_BINARY_INV inverte a imagem, transformando os pixels acima de um certo limiar em preto (0) e os abaixo em branco (255).
 
 ## Morfologia
